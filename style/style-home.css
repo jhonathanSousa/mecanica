@@ -1,0 +1,984 @@
+@media (max-width: 480px) {
+
+/*FORMATAÇÃO DE MENU*/
+
+.btn-menu{
+	width: 56px;
+	height: 56px;
+	float: right;
+	text-align: center;
+	color: #ffffff;
+	border-radius: 56px;
+	border: 0;
+	cursor: pointer;
+	background: linear-gradient(to right,#CD0000,#CD0000);
+	margin: 35px 10px 0px 0px;
+}
+
+.logo img{
+	width: 100%;
+	max-width: 200px;
+	float: left;
+    margin: 0 10px;
+    width: auto;
+}
+
+.btn-close{
+	font-size: 1.5em;
+	color: #ffffff;
+	float: right;
+	cursor: pointer;
+	margin: 50px 40px 10px 0px;
+}
+
+.menu{
+	display: none;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background-color: #CD0000;
+	top: 0;
+	left: 0;
+}
+
+.menu ul{
+	margin-top: 5%;
+	width: 100%;
+	float: right;
+}
+
+.menu li{
+	padding: 20px;
+	border-bottom: 1px solid #ffffff;
+}
+
+.menu li a {
+	font-size: 30px;
+	text-decoration: none;
+	color: #ffffff;
+	padding: 10px 5px;
+}
+
+.menu li a:hover{
+	color: #000000;
+}
+
+.cabecalho-banner img{
+	width: 100%;
+	height: 320px;
+}
+
+/*formatação de title servicos */
+
+.title-home h3{
+	text-align: center;
+	margin: 30px 0;
+	font-weight: bold;
+	color: #cd0000;
+}
+
+.title-home h2{
+	text-align: center;
+	margin-bottom: 30px;
+	font-size: 2em;
+}
+
+.title-home p{
+	text-align: center;
+	margin: 30px 20px;
+	margin-bottom: 30px;
+}
+
+.btn-saiba {
+	display: block;
+	margin: 0 auto;
+	width: 140px;
+	padding: 15px 0;
+	border-radius: 3px;
+	background-color:  #cd0000;
+	border: none;
+	font-size: 1em;
+}
+
+.btn-saiba a {
+	text-decoration: none;
+	color: #ebebeb;
+}
+
+/* formatação de section servicos */
+
+.sobre-servicos{
+	margin-top: 30px;
+	background-color: #f7f7f7;
+	padding: 50px 20px;
+}
+
+.sobre-servicos h2{
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.5em;
+	margin-bottom: 30px;
+}
+
+.sobre-servicos p{
+	text-align: center;
+	line-height: 20px;
+}
+
+/* formatação de ul servicos */
+
+.servicos{
+	width: 94%;
+	margin: 0 auto;
+}
+
+.servicos li{
+	display: block;
+	text-align: center;
+	width: 70%;
+	vertical-align: top;
+	margin: 0 auto;
+	padding: 30px 0px;
+	box-sizing: border-box;
+}
+
+.servicos h2{
+	margin: 30px 0;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.servicos i{
+	width: 80px;
+	height: 80px;
+	border-radius: 80px;
+	line-height: 80px;
+	background-color: #cd0000;
+	color: #fff;
+	font-size: 2em;
+}
+
+.servicos-descricao{
+	margin: 30px;
+	font-size: 1.05em;
+}
+
+.title{
+	text-align: center;
+	margin: 30px 0 ;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.slider{
+	padding: 30px 50px;
+}
+
+
+/* formatção de rodapé */
+
+.rodape{
+	padding: 20px 20px;
+	background-color: #000;
+}
+
+/* formatação de icon localização */
+
+.localizacao i{
+	margin-bottom: 10px;
+	line-height: 25px;
+	color: #CD0000;
+}
+
+span{
+	margin-left: 5px;	
+	font-size: 1em;
+	font-weight: normal;
+	color: #ebebeb;
+}
+
+/* formatação de icon redes sociais */
+
+.redes-sociais{
+	margin: 50px 0 0 0;
+}
+
+.redes-sociais li{
+	display: inline-block;
+	margin: 0 3px;
+}
+
+.redes-sociais i {
+	text-align: center;
+	width: 46px;
+	height: 46px;
+	line-height: 46px;
+	border-radius: 46px;
+	background-color: #CD0000;
+	color: #ebebeb;
+
+}
+
+/* formatação de menu rodapé */
+
+.menu-rodape ul{
+	margin: 50px 0 0 0;
+}
+
+.menu-rodape li{
+	margin-bottom: 25px;
+}
+
+.menu-rodape li a {
+	text-decoration: none;
+	font-size: 1em;
+	color: #ebebeb;
+}
+
+.cartao-aceitos{
+	width: 100%;
+	max-width: 300px;
+	margin: 50px 0 0 0 ;
+}
+
+.copyright{
+	margin: 50px 0 0 0 ;
+	line-height: 25px;
+	color: #ebebeb;
+}
+
+}
+
+@media(min-width: 481px) and (max-width: 767px){
+
+/*FORMATAÇÃO DE MENU*/
+
+.btn-menu{
+	width: 56px;
+	height: 56px;
+	float: right;
+	text-align: center;
+	color: #ffffff;
+	border-radius: 56px;
+	border: 0;
+	cursor: pointer;
+	background: linear-gradient(to right,#CD0000,#CD0000);
+	margin: 35px 30px 0px 0px;
+}
+
+.logo img{
+	width: 100%;
+	max-width: 200px;
+	float: left;
+    margin: 0 30px;
+    width: auto;
+}
+
+.btn-close{
+	font-size: 1.5em;
+	color: #ffffff;
+	float: right;
+	cursor: pointer;
+	margin: 50px 40px 10px 0px;
+}
+
+.menu{
+	display: none;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background-color: #CD0000;
+	top: 0;
+	left: 0;
+}
+
+.menu ul{
+	margin-top: 5%;
+	width: 100%;
+	float: right;
+}
+
+.menu li{
+	padding: 20px;
+	border-bottom: 1px solid #ffffff;
+}
+
+.menu li a {
+	font-size: 30px;
+	color: #ffffff;
+	padding: 10px 5px;
+}
+
+.menu li a:hover{
+	color: #000000;
+}
+
+/*formatação de title servicos */
+
+.title-home h3{
+	text-align: center;
+	margin: 30px 0;
+	font-weight: bold;
+	color: #cd0000;
+}
+
+.title-home h2{
+	text-align: center;
+	margin: 30px 20px;
+	font-size: 2em;
+}
+
+.title-home p{
+	text-align: center;
+	margin: 30px 20px;
+}
+
+.btn-saiba {
+	display: block;
+	margin: 0 auto;
+	width: 140px;
+	padding: 15px 0;
+	border-radius: 3px;
+	background-color:  #cd0000;
+	border: none;
+	font-size: 1em;
+}
+
+.btn-saiba a {
+	text-decoration: none;
+	color: #ebebeb;
+}
+
+.cabecalho-banner img{
+	width: 100%;
+	height: 350px;
+}
+
+/* formatação de section servicos */
+
+.sobre-servicos{
+	margin-top: 30px;
+	background-color: #f7f7f7;
+	padding: 50px 20px;
+}
+
+.sobre-servicos h2{
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.5em;
+	margin-bottom: 30px;
+}
+
+.sobre-servicos p{
+	text-align: center;
+	line-height: 20px;
+}
+
+/* formatação de ul servicos */
+
+.servicos{
+	width: 94%;
+	margin: 0 auto;
+}
+
+.servicos li{
+	display: block;
+	text-align: center;
+	width: 70%;
+	vertical-align: top;
+	margin: 0 auto;
+	padding: 30px 0px;
+	box-sizing: border-box;
+}
+
+.servicos h2{
+	margin: 30px 0;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.servicos i{
+	width: 80px;
+	height: 80px;
+	border-radius: 80px;
+	line-height: 80px;
+	background-color: #cd0000;
+	color: #fff;
+	font-size: 2em;
+}
+
+.servicos-descricao{
+	margin: 30px;
+	font-size: 1.05em;
+}
+
+.title{
+	text-align: center;
+	margin: 30px 0 ;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.slider{
+	padding: 30px 50px;
+}
+
+/* formatção de rodapé */
+
+.rodape{
+	padding: 20px 20px;
+	background-color: #000;
+}
+
+/* formatação de icon localização */
+
+.localizacao i{
+	margin-bottom: 10px;
+	line-height: 25px;
+	color: #CD0000;
+}
+
+span{
+	margin-left: 5px;	
+	font-size: 1em;
+	font-weight: normal;
+	color: #ebebeb;
+}
+
+/* formatação de icon redes sociais */
+
+.redes-sociais{
+	margin: 50px 0 0 0;
+}
+
+.redes-sociais li{
+	display: inline-block;
+	margin: 0 3px;
+}
+
+.redes-sociais i {
+	text-align: center;
+	width: 46px;
+	height: 46px;
+	line-height: 46px;
+	border-radius: 46px;
+	background-color: #CD0000;
+	color: #ebebeb;
+}
+
+/* formatação de menu rodapé */
+
+.menu-rodape ul{
+	margin: 50px 0 0 0;
+}
+
+.menu-rodape li{
+	margin-bottom: 25px;
+}
+
+.menu-rodape li a {
+	text-decoration: none;
+	font-size: 1em;
+	color: #ebebeb;
+}
+
+.cartao-aceitos{
+	width: 100%;
+	max-width: 300px;
+	margin: 50px 0 0 0 ;
+}
+
+.copyright{
+	margin: 50px 0 0 0 ;
+	line-height: 25px;
+	color: #ebebeb;
+}
+
+}
+
+@media(min-width: 768px) and (max-width: 979px){
+
+/*FORMATAÇÃO DE MENU*/
+
+.btn-menu{
+	width: 56px;
+	height: 56px;
+	float: right;
+	text-align: center;
+	color: #ffffff;
+	border-radius: 56px;
+	border: 0;
+	cursor: pointer;
+	background: linear-gradient(to right,#CD0000,#CD0000);
+	margin: 35px 30px 0px 0px;
+}
+
+.logo img{
+	width: 100%;
+	max-width: 200px;
+	float: left;
+    margin: 0 30px;
+    width: auto;
+}
+
+.btn-close{
+	font-size: 1.5em;
+	color: #ffffff;
+	float: right;
+	cursor: pointer;
+	margin: 50px 40px 10px 0px;
+}
+
+.menu{
+	display: none;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background-color: #CD0000;
+	top: 0;
+	left: 0;
+}
+
+.menu ul{
+	margin-top: 5%;
+	width: 100%;
+	float: right;
+}
+
+.menu li{
+	padding: 20px;
+	border-bottom: 1px solid #ffffff;
+}
+
+.menu li a {
+	font-size: 30px;
+	color: #ffffff;
+	padding: 10px 5px;
+}
+
+.menu li a:hover{
+	color: #000000;
+}
+
+/*formatação de title servicos */
+
+.title-home h3{
+	text-align: center;
+	margin: 30px 0;
+	font-weight: bold;
+	color: #cd0000;
+}
+
+.title-home h2{
+	text-align: center;
+	margin: 30px 20px;
+	font-size: 2em;
+}
+
+.title-home p{
+	text-align: center;
+	margin: 30px 20px;
+}
+
+.btn-saiba {
+	display: block;
+	margin: 0 auto;
+	width: 140px;
+	padding: 15px 0;
+	border-radius: 3px;
+	background-color:  #cd0000;
+	border: none;
+	font-size: 1em;
+}
+
+.btn-saiba a {
+	text-decoration: none;
+	color: #ebebeb;
+}
+
+.cabecalho-banner img{
+	width: 100%;
+	height: 350px;
+}
+
+/* formatação de section servicos */
+
+.sobre-servicos{
+	margin-top: 30px;
+	background-color: #f7f7f7;
+	padding: 50px 20px;
+}
+
+.sobre-servicos h2{
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.5em;
+	margin-bottom: 30px;
+}
+
+.sobre-servicos p{
+	text-align: center;
+	line-height: 20px;
+}
+
+/* formatação de ul servicos */
+
+.servicos{
+	width: 94%;
+	margin: 0 auto;
+}
+
+.servicos li{
+	display: block;
+	text-align: center;
+	width: 70%;
+	vertical-align: top;
+	margin: 0 auto;
+	padding: 30px 0px;
+	box-sizing: border-box;
+}
+
+.servicos h2{
+	margin: 30px 0;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.servicos i{
+	width: 80px;
+	height: 80px;
+	border-radius: 80px;
+	line-height: 80px;
+	background-color: #cd0000;
+	color: #fff;
+	font-size: 2em;
+}
+
+.servicos-descricao{
+	margin: 30px;
+	font-size: 1.05em;
+}
+
+.title{
+	text-align: center;
+	margin: 30px 0 ;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.slider{
+	padding: 30px 50px;
+}
+
+
+/* formatção de rodapé */
+
+.rodape{
+	padding: 20px 20px;
+	background-color: #000;
+}
+
+/* formatação de icon localização */
+
+.localizacao i{
+	margin-bottom: 10px;
+	line-height: 25px;
+	color: #CD0000;
+}
+
+span{
+	margin-left: 5px;	
+	font-size: 1em;
+	font-weight: normal;
+	color: #ebebeb;
+}
+
+/* formatação de icon redes sociais */
+
+.redes-sociais{
+	margin: 50px 0 0 0;
+}
+
+.redes-sociais li{
+	display: inline-block;
+	margin: 0 3px;
+}
+
+.redes-sociais i {
+	text-align: center;
+	width: 46px;
+	height: 46px;
+	line-height: 46px;
+	border-radius: 46px;
+	background-color: #CD0000;
+	color: #ebebeb;
+
+}
+
+/* formatação de menu rodapé */
+
+.menu-rodape ul{
+	margin: 50px 0 0 0;
+}
+
+.menu-rodape li{
+	margin-bottom: 25px;
+}
+
+.menu-rodape li a {
+	text-decoration: none;
+	font-size: 1em;
+	color: #ebebeb;
+}
+
+.cartao-aceitos{
+	width: 100%;
+	max-width: 300px;
+	margin: 50px 0 0 0 ;
+}
+
+.copyright{
+	margin: 50px 0 0 0 ;
+	line-height: 25px;
+	color: #ebebeb;
+}
+
+}
+
+@media (min-width: 980px){
+
+/* formatação de cabeçalho */
+
+.logo img{
+	display: block;
+	margin: 0 auto;
+}
+
+.cabecalho{
+	background-color: #cd0000;
+	padding: 25px 0;
+	clear: both;
+}
+
+/* formatação do menu */
+
+.btn-menu{
+	display: none;
+}
+
+.btn-close{
+	display: none;
+}
+
+.menu ul{
+	text-align: center;
+}
+
+.menu li{
+	display: inline-block;
+	margin: 0 40px;
+}
+
+.menu li a {
+	text-decoration: none;
+	transition: 0.5s;
+	font-size: 1.3em;
+	color: #ebebeb;
+}
+
+.menu li a:hover{
+	color: #000000;
+}
+
+/* formatação do banner */
+
+.cabecalho-banner img{
+	width: 100%
+}
+
+/*formatação de title servicos */
+
+.title-home h3{
+	text-align: center;
+	margin: 30px 0;
+	font-weight: bold;
+	color: #cd0000;
+}
+
+.title-home h2{
+	text-align: center;
+	margin-bottom: 30px;
+	font-size: 2em;
+}
+
+.title-home p{
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.btn-saiba {
+	display: block;
+	margin: 0 auto;
+	width: 140px;
+	padding: 15px 0;
+	border-radius: 3px;
+	background-color:  #cd0000;
+	border: none;
+	font-size: 1em;
+}
+
+.btn-saiba a {
+	text-decoration: none;
+	color: #ebebeb;
+}
+
+
+/* formatação de section servicos */
+
+.sobre-servicos{
+	margin-top: 30px;
+	background-color: #f7f7f7;
+	padding: 50px 20px;
+}
+
+.sobre-servicos h2{
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.5em;
+	margin-bottom: 30px;
+}
+
+.sobre-servicos p{
+	text-align: center;
+	line-height: 20px;
+}
+
+/* formatação de ul servicos */
+
+.servicos{
+	width: 94%;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.servicos li{
+	display: inline-block;
+	text-align: center;
+	width: 28%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 10px;
+	box-sizing: border-box;
+}
+
+.servicos h2{
+	margin: 30px 0;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.servicos i{
+	width: 80px;
+	height: 80px;
+	border-radius: 80px;
+	line-height: 80px;
+	background-color: #cd0000;
+	color: #fff;
+	font-size: 2em;
+}
+
+.servicos-descricao{
+	margin: 30px;
+	font-size: 1.05em;
+}
+
+.title{
+	text-align: center;
+	margin: 30px 0 ;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.slider{
+	padding: 30px 50px;
+}
+
+
+
+/* formatação de rodapé */
+
+.rodape{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	height: 300px;
+	padding: 30px 0 0  20px;
+	background-color: #000;
+}
+
+/* formatação de icon localização */
+
+.localizacao i{
+	margin-bottom: 10px;
+	line-height: 25px;
+	color: #CD0000;
+}
+
+span{
+	margin-left: 5px;	
+	font-size: 1em;
+	font-weight: normal;
+	color: #ebebeb;
+}
+
+/* formatação de icon redes sociais */
+
+.redes-sociais{
+	margin: 50px 0 0 0;
+}
+
+.redes-sociais li{
+	display: inline-block;
+	margin: 0 3px;
+}
+
+.redes-sociais i {
+	text-align: center;
+	width: 46px;
+	height: 46px;
+	line-height: 46px;
+	border-radius: 46px;
+	background-color: #CD0000;
+	color: #ebebeb;
+}
+
+/* formatação de menu rodapé */
+
+.menu-rodape ul{
+	margin: 50px 0 0 0;
+}
+
+.menu-rodape li{
+	margin-bottom: 25px;
+}
+
+.menu-rodape li a {
+	text-decoration: none;
+	font-size: 1em;
+	color: #ebebeb;
+}
+
+.cartao-aceitos{
+	width: 100%;
+	max-width: 300px;
+	margin: 50px 0 0 0 ;
+}
+
+.copyright{
+	margin: 50px 0 0 0 ;
+	line-height: 25px;
+	color: #ebebeb;
+}
+
+
+}
